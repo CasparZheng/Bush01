@@ -14,6 +14,7 @@
 
 @property (nonatomic, copy) NSString *name;
 @property (nonatomic, assign) NSUInteger age;
+@property (nonatomic, copy) NSString *phone;
 @property (nonatomic, assign) NSUInteger gender; // female 1, male 0
 @property (nonatomic, strong) Country *country;
 @property (nonatomic, strong) School *school;
