@@ -16,6 +16,8 @@
 		EFBC7C731F9798F6003593D3 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C711F9798F6003593D3 /* School.m */; };
 		EFBC7C761F979915003593D3 /* Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7C741F979915003593D3 /* Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFBC7C771F979915003593D3 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C751F979915003593D3 /* Helper.m */; };
+		EFBC7CB91F979F0A003593D3 /* Country.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7CB71F979F0A003593D3 /* Country.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBC7CBA1F979F0A003593D3 /* Country.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7CB81F979F0A003593D3 /* Country.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 		EFBC7C711F9798F6003593D3 /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
 		EFBC7C741F979915003593D3 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
 		EFBC7C751F979915003593D3 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		EFBC7CB71F979F0A003593D3 /* Country.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Country.h; sourceTree = "<group>"; };
+		EFBC7CB81F979F0A003593D3 /* Country.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				EFBC7C6D1F9798EC003593D3 /* Person.m */,
 				EFBC7C701F9798F6003593D3 /* School.h */,
 				EFBC7C711F9798F6003593D3 /* School.m */,
+				EFBC7CB71F979F0A003593D3 /* Country.h */,
+				EFBC7CB81F979F0A003593D3 /* Country.m */,
 				EFBC7C741F979915003593D3 /* Helper.h */,
 				EFBC7C751F979915003593D3 /* Helper.m */,
 				EFBC7C561F9798D9003593D3 /* Info.plist */,
@@ -115,6 +121,7 @@
 				EFBC7C721F9798F6003593D3 /* School.h in Headers */,
 				EFBC7C761F979915003593D3 /* Helper.h in Headers */,
 				EFBC7C6E1F9798EC003593D3 /* Person.h in Headers */,
+				EFBC7CB91F979F0A003593D3 /* Country.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBC7CBA1F979F0A003593D3 /* Country.m in Sources */,
 				EFBC7C6F1F9798EC003593D3 /* Person.m in Sources */,
 				EFBC7C771F979915003593D3 /* Helper.m in Sources */,
 				EFBC7C731F9798F6003593D3 /* School.m in Sources */,
