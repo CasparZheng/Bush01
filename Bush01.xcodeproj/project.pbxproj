@@ -10,6 +10,12 @@
 		EFBC7C5C1F9798DA003593D3 /* Bush01.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBC7C521F9798D9003593D3 /* Bush01.framework */; };
 		EFBC7C611F9798DA003593D3 /* Bush01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C601F9798DA003593D3 /* Bush01Tests.m */; };
 		EFBC7C631F9798DA003593D3 /* Bush01.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7C551F9798D9003593D3 /* Bush01.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBC7C6E1F9798EC003593D3 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7C6C1F9798EC003593D3 /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBC7C6F1F9798EC003593D3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C6D1F9798EC003593D3 /* Person.m */; };
+		EFBC7C721F9798F6003593D3 /* School.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7C701F9798F6003593D3 /* School.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBC7C731F9798F6003593D3 /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C711F9798F6003593D3 /* School.m */; };
+		EFBC7C761F979915003593D3 /* Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBC7C741F979915003593D3 /* Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFBC7C771F979915003593D3 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBC7C751F979915003593D3 /* Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		EFBC7C5B1F9798DA003593D3 /* Bush01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bush01Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBC7C601F9798DA003593D3 /* Bush01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bush01Tests.m; sourceTree = "<group>"; };
 		EFBC7C621F9798DA003593D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBC7C6C1F9798EC003593D3 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EFBC7C6D1F9798EC003593D3 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EFBC7C701F9798F6003593D3 /* School.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = School.h; sourceTree = "<group>"; };
+		EFBC7C711F9798F6003593D3 /* School.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = School.m; sourceTree = "<group>"; };
+		EFBC7C741F979915003593D3 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		EFBC7C751F979915003593D3 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,12 @@
 			isa = PBXGroup;
 			children = (
 				EFBC7C551F9798D9003593D3 /* Bush01.h */,
+				EFBC7C6C1F9798EC003593D3 /* Person.h */,
+				EFBC7C6D1F9798EC003593D3 /* Person.m */,
+				EFBC7C701F9798F6003593D3 /* School.h */,
+				EFBC7C711F9798F6003593D3 /* School.m */,
+				EFBC7C741F979915003593D3 /* Helper.h */,
+				EFBC7C751F979915003593D3 /* Helper.m */,
 				EFBC7C561F9798D9003593D3 /* Info.plist */,
 			);
 			path = Bush01;
@@ -94,6 +112,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBC7C631F9798DA003593D3 /* Bush01.h in Headers */,
+				EFBC7C721F9798F6003593D3 /* School.h in Headers */,
+				EFBC7C761F979915003593D3 /* Helper.h in Headers */,
+				EFBC7C6E1F9798EC003593D3 /* Person.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +216,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBC7C6F1F9798EC003593D3 /* Person.m in Sources */,
+				EFBC7C771F979915003593D3 /* Helper.m in Sources */,
+				EFBC7C731F9798F6003593D3 /* School.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -318,6 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -343,6 +369,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.insta360.Bush01;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -364,6 +391,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.insta360.Bush01;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

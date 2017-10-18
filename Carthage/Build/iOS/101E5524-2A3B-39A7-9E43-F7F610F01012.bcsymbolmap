@@ -1,0 +1,30 @@
+BCSymbolMap Version: 2.0
+-[Person name]
+-[Person setName:]
+-[Person age]
+-[Person setAge:]
+-[Person gender]
+-[Person setGender:]
+-[Person .cxx_destruct]
+_OBJC_IVAR_$_Person._name
+_OBJC_IVAR_$_Person._age
+_OBJC_IVAR_$_Person._gender
+Apple LLVM version 9.0.0 (clang-900.0.37)
+/Users/caspar/Desktop/Bush01/Bush01/Person.m
+/Users/caspar/Desktop/Bush01
+/Users/caspar/Desktop/Bush01/Bush01/Person.h
+-[Helper someone:toSchool:]
+/Users/caspar/Desktop/Bush01/Bush01/Helper.m
+-[School name]
+-[School setName:]
+-[School address]
+-[School setAddress:]
+-[School phone]
+-[School setPhone:]
+-[School .cxx_destruct]
+_OBJC_IVAR_$_School._name
+_OBJC_IVAR_$_School._address
+_OBJC_IVAR_$_School._phone
+/Users/caspar/Desktop/Bush01/Bush01/School.m
+/Users/caspar/Desktop/Bush01/Bush01/School.h
+/Users/caspar/Library/Developer/Xcode/DerivedData/Bush01-dvexbhticucpxkbdoqigiluznnxn/Build/Intermediates.noindex/Bush01.build/Release-iphoneos/Bush01.build/DerivedSources/Bush01_vers.c

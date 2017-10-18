@@ -1,0 +1,6 @@
+framework module Bush01 {
+  umbrella header "Bush01.h"
+
+  export *
+  module * { export * }
+}
